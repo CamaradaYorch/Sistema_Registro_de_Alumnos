@@ -1,90 +1,72 @@
-# Proyecto_fase_II
+# PROYECTO FASE II
+------------------------------------------------------------------------------------
+# Sistema de Registro de Alumnos
 
-Español / Spanish
+Este es un programa sencillo para registrar información de alumnos del CEDART. 
+El programa utiliza una interfaz gráfica creada con Tkinter para facilitar el 
+ingreso de los datos y guardarlos en un archivo de texto.
 
----------------------------------------------------------------------------------------------------
+## Instalación
 
-▓▓ Registro de Alumnos ▓▓
+Asegúrate de tener Python 3.11.4 instalado en tu sistema.
 
----------------------------------------------------------------------------------------------------
-
-        Este es un programa sencillo para registrar información de alumnos del Centro de Educación 
-Artística; CEDART. El programa utiliza una interfaz gráfica creada con Tkinter para facilitar
-el ingreso de los datos y guardarlos en un archivo de texto.
-
-
-░░ Requisitos ░░ 
-
-* Python 3.11.4 instalado en el sistema.
-* Librería Tkinter, incluida en la instalación estándar de Python.
-* Librería PIL (Python Imaging Library) para trabajar con imágenes.
-
-
-░░ Instalación ░░ 
-
-        Para instalar las dependencias, asegúrate de tener Python 3.11.4  instalado 
-y luego ejecuta el siguiente comando:
-
-* pip install pillow
-
-
-░░ Instrucciones de Uso ░░ 
-
-1. Ejecuta el programa main.py.
-2. Completa los campos de entrada con la información del alumno: nombre, fecha de registro,
-        matrícula,CURP, número de contacto y correo electrónico.
-3. Haz clic en el botón "Registrar" para guardar la información del alumno en un archivo de texto.
-4. Si deseas agregar un nuevo alumno, haz clic en el botón "Nuevo Alumno" para limpiar los campos de 
-        entrada y poder ingresar los datos de otro alumno.
-
-
-
-░░ Autor ░░ 
-
-Nombre: Jorge Mera
-
-
-___________________________________________________________________________________________________
-
-
-
-English / Ingles
-
----------------------------------------------------------------------------------------------------
-
-▓▓ Student Registration ▓▓
-
----------------------------------------------------------------------------------------------------
-
-
-This is a simple program to register student information in an art education center. 
-The program uses a graphical interface created with Tkinter to facilitate data entry and save 
-it to a text file.
-
-
-░░ Requirements ░░
-
-Python 3.11.4  installed on your system.
-Tkinter library, which is included in the standard Python installation.
-PIL (Python Imaging Library) to work with images.
-░░ Installation ░░
-
-
-    To install the dependencies, make sure you have Python 3.11.4  installed 
-and then run the following command:
-
+```bash
 pip install pillow
-░░ Usage Instructions ░░
+```
 
-Run the main.py program.
-Complete the input fields with the student information: name, registration date, student ID,
-CURP, contact number, and email address.
-Click the "Register" button to save the student information to a text file.
-If you want to add a new student, click the "New Student" button to clear the input fields and
-enter the data for another student.
-░░ Author ░░
+## Uso
 
-Name: Jorge Mera
+```python
+Para utilizar el sistema de registro de alumnos, sigue los siguientes pasos:
+Importar el módulo en tu programa para acceder a las clases y funciones necesarias:
+
+#-----------------------------------------------------------------------------------
+
+import os
+import tkinter as tk
+from tkinter import messagebox
+from PIL import Image, ImageTk
+import main
+
+#-----------------------------------------------------------------------------------
+
+# Clase Alumno y VentanaRegistro aquí
+
+if __name__ == "__main__":
+    ventana = VentanaRegistro()
+    ventana.mainloop()
+
+#-----------------------------------------------------------------------------------
+Completar los campos de entrada con la información del alumno: nombre, fecha de registro, 
+matrícula, CURP, número de contacto y correo electrónico.
+
+Guardar la información del alumno haciendo clic en el botón "Registrar". 
+Los datos del alumno se guardarán automáticamente en un archivo de texto
+en el escritorio del usuario.
+
+Si deseas agregar un nuevo alumno, haz clic en el botón "Nuevo Alumno" 
+para limpiar los campos de entrada y poder ingresar los datos de otro alumno.
+
+Es importante destacar que el programa utiliza la librería Tkinter 
+para crear la interfaz gráfica y la librería PIL (Python Imaging Library) 
+para trabajar con imágenes. Asegúrate de tener instaladas estas librerías 
+antes de ejecutar el programa.
+
+El sistema de registro de alumnos está diseñado para ser sencillo de usar
+y permite guardar la información de los alumnos en un archivo de texto 
+de forma organizada y fácil de leer. 
+
+
+```
+
+## Contribuir
+
+¡Las contribuciones son bienvenidas! Si deseas realizar cambios importantes en el sistema de registro de alumnos, por favor abre un "issue" primero para discutir lo que te gustaría cambiar.
+
+
+## Licencia
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 ___________________________________________________________________________________________________
