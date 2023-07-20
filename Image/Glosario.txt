@@ -1,0 +1,60 @@
+# Proyecto_fase_II
+
+---------------------------------------------------------------------------------------------------
+
+▓▓ Glorsario Programa de Registro de Alumnos ▓▓ 
+
+---------------------------------------------------------------------------------------------------
+
+* Clase Alumno: 
+    Clase que representa la información de un alumno. 
+    Tiene atributos privados para el nombre, fecha de registro, 
+    matrícula, CURP, número de contacto y correo electrónico del alumno.
+
+
+* Getter: 
+    Métodos get_nombre, get_fecha, get_matricula, get_curp, 
+    get_contacto y get_correo que permiten acceder a los atributos 
+    privados de la clase Alumno de manera controlada.
+
+
+* Setter: 
+    Métodos set_nombre, set_fecha, set_matricula, set_curp,
+    set_contacto y set_correo que permiten establecer los atributos 
+    privados de la clase Alumno de manera controlada.
+
+
+* Guardar_archivo: 
+    Método guardar_archivo de la clase Alumno que 
+    guarda la información del alumno en un archivo de texto. 
+    El archivo se crea en el escritorio del usuario y tiene un 
+    formato específico con los datos del alumno.
+
+
+* Clase VentanaRegistro: 
+    Clase que representa la interfaz gráfica del programa.
+    Hereda de la clase tk.Tk para crear la ventana principal.
+
+
+* Configurar_interfaz: 
+    Método configurar_interfaz de la clase VentanaRegistro 
+    que configura la interfaz gráfica del programa. Crea los elementos de la ventana, 
+    como etiquetas, campos de entrada y botones.
+
+
+* Agregar_alumno: 
+    Método agregar_alumno de la clase VentanaRegistro que limpia los campos
+    de entrada para permitir el registro de un nuevo alumno. 
+    Utiliza los setters de la clase Alumno para limpiar los atributos.
+
+
+* Guardar_datos: 
+    Método guardar_datos de la clase VentanaRegistro que guarda los datos
+    del alumno ingresados en los campos de entrada. Utiliza los getters de la clase Alumno 
+    para obtener los datos y luego llama al método guardar_archivo para guardarlos en 
+    un archivo de texto.
+
+
+* Main: Parte del código que se ejecuta al iniciar el programa.
+    Crea una instancia de la clase VentanaRegistro y entra en el ciclo principal de la 
+    interfaz gráfica con el método mainloop.

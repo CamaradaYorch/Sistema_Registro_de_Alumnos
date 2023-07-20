@@ -1,0 +1,46 @@
+# Proyecto_Registrar_Alumno
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+* Requirements * | * English *
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+pip==21.2.4
+tkinter==8.6
+Pillow==8.4.0
+pyinstaller==4.5.1
+
+*To install the dependencies, you can run the following command in the terminal:
+
+
+*Copy code*
+
+
+pip install -r Requerimientos.txt
+
+
+* This will install the specified libraries and versions, ensuring that your project works correctly in any environment with Python installed.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+* Requisitos * | * Español *
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Español / Spanish
+
+pip==21.2.4
+tkinter==8.6
+Pillow==8.4.0
+pyinstaller==4.5.1
+
+*Para instalar las dependencias, puedes ejecutar el siguiente comando en la terminal:
+
+*Copiar el codigo*
+
+
+pip install -r Requerimientos.txt
+
+
+*Esto instalará las librerías y versiones especificadas, asegurando que tu proyecto funcione correctamente en cualquier entorno con Python instalado.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
