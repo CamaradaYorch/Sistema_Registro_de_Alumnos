@@ -15,14 +15,14 @@ el ingreso de los datos y guardarlos en un archivo de texto.
 
 ░░ Requisitos ░░ 
 
-* Python 3.x instalado en el sistema.
+* Python 3.11.4 instalado en el sistema.
 * Librería Tkinter, incluida en la instalación estándar de Python.
 * Librería PIL (Python Imaging Library) para trabajar con imágenes.
 
 
 ░░ Instalación ░░ 
 
-        Para instalar las dependencias, asegúrate de tener Python 3.x instalado 
+        Para instalar las dependencias, asegúrate de tener Python 3.11.4  instalado 
 y luego ejecuta el siguiente comando:
 
 * pip install pillow
@@ -64,13 +64,13 @@ it to a text file.
 
 ░░ Requirements ░░
 
-Python 3.x installed on your system.
+Python 3.11.4  installed on your system.
 Tkinter library, which is included in the standard Python installation.
 PIL (Python Imaging Library) to work with images.
 ░░ Installation ░░
 
 
-    To install the dependencies, make sure you have Python 3.x installed 
+    To install the dependencies, make sure you have Python 3.11.4  installed 
 and then run the following command:
 
 pip install pillow
