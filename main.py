@@ -232,9 +232,9 @@ class VentanaRegistro(tk.Tk):
             messagebox.showinfo("Registro exitoso", f"Se ha registrado el alumno {nombre}.")
 
         # ▼ En caso de que ocurra alguna excepción durante el proceso de registro,
-        except Exception as e:
+        except Exception as error:
             # ▼ Se muestra una ventana emergente con el título "Error" y el mensaje que contiene la descripción del error (obtenida de la excepción).
-            messagebox.showerror("Error", str(e))
+            messagebox.showerror("Error", f"Ocurrió un error al registrar el alumno: {error}")
 
 #--------------------------------------------------------------------------------------------------
 
